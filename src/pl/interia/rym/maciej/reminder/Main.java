@@ -75,9 +75,10 @@ public class Main {
 		
 		//Lists
 		DefaultListModel<String> p = new DefaultListModel<>();
-		p.addElement("Sprawdzian j polski PRzedwiosnie");
-		p.addElement("Antoni");
-		p.addElement("Hhihi");
+		p.addElement("Jakis tam tekst.");
+		p.addElement("Inny tekst!");
+		p.addElement("Calkowicie odmienny tekst!");
+		p.addElement("Jeszcze cos innego..");
 		JList<String> lRecent = new JList<>(p);
 		lRecent.setFont(new Font(lRecent.getFont().getName(), lRecent.getFont().getStyle(), 30));
 		lRecent.setBounds(10, 190, 400, 370);
