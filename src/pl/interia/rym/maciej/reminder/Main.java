@@ -31,7 +31,7 @@ public class Main {
 	public static Main reminder;
 	
 	public static void main(String[] args) {
-		//Config.loadConfigs();sssssssssssssssssssssssssssssssss
+		//Config.loadConfigs();213fxcvxzrf34323
 		reminder = new Main();
 		reminder.listeners = new Listeners();
 		
